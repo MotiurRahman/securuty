@@ -1,0 +1,16 @@
+<Alloy>
+    <Window class="container" title="Password Manager">
+        <ScrollView>
+            <View layout="vertical">
+                <Label id="name_and" platform="android" top="20">Password Manager</Label>
+                <Label id="name_ios" platform="ios" top="20">Password Manager</Label>
+                <ImageView height="200" id="first" image="/images/open.png" top="30" width="200"/>
+                <Label color="#fff" font="10" left="20" platform="android" top="20">Enter your Password then press done! </Label>
+                <TextField backgroundColor="#fff" id="pin" onReturn="done" passwordMask="true" platform="android" top="5"/>
+                <TextField backgroundColor="#fff" hintText="Enter Password then press done!" id="pin" onReturn="done" passwordMask="true" platform="ios" top="20"/>
+                <Label color="green" font="10" id="forgot" onClick="forgot" right="20" top="5">Forgot Password!</Label>
+                <Label id="signin" onClick="onCreate" top="20">Create Master Password.</Label>
+            </View>
+        </ScrollView>
+    </Window>
+</Alloy>

@@ -1,0 +1,61 @@
+"#menuView":{
+	layout: 'vertical',
+	backgroundColor: 'blue'
+},
+"#menuTopBar":{
+	width: Ti.UI.FILL,
+	height: "60dp",
+	backgroundColor: '#3D3D3D',
+	//backgroundColor: 'green',
+	layout: 'horizontal'
+},
+".tableRow":{
+	height: '50dp'
+},
+"#rowContainer":{
+	height: '30dp',
+	layout: 'horizontal'
+},
+".rowIcon":{
+	left: 5,
+	top: 7,
+	width: "20dp",
+	height: "20dp"
+},
+"#rowAbout":{
+	backgroundImage: '/images/about.png'
+},
+"#rowGear":{
+	backgroundImage: '/images/19-gear.png'
+},
+"#rowRate":{
+	backgroundImage: '/images/rate.png'
+}
+"#fbShare":{
+	backgroundImage: '/images/fbicon.png'
+}
+"#twiterShare":{
+	backgroundImage: '/images/twicon.png'
+}
+"#linkdinShare":{
+	backgroundImage: '/images/Linicon.png'
+}
+"#whatsappShare":{
+	backgroundImage: '/images/whatsappicon.png'
+}
+
+
+".rowLabel":{
+	top: 7,
+	left: 10,
+	height: "20dp",
+	font:{
+		fontSize: "15dp"
+	},
+	color: "#000"
+},
+".menuTable":{
+	separatorStyle: 'NONE',
+	separatorColor: 'transparent',
+	backgroundColor: '#F2F2F2'
+}

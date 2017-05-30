@@ -1,0 +1,68 @@
+"#mainView":{
+	//layout: 'vertical',
+	backgroundColor: '#cacaca'
+},
+"#mainTopBar":{
+	width: Ti.UI.FILL,
+	height: "60dp",
+	backgroundColor: '#5B96B2'
+},
+"#menuButtonLeft":{
+	width: "60dp",
+	height: "60dp",
+	left: 0
+}
+"#menuButtonRight":{
+	width: "60dp",
+	height: "60dp",
+	right: 0
+}
+
+"#mainTopBar[formFactor=tablet]":{
+	width: Ti.UI.FILL,
+	height: "80dp",
+	backgroundColor: '#5B96B2'
+},
+"#menuButtonLeft[formFactor=tablet]":{
+	width: "80dp",
+	height: "80dp",
+	left: 0
+}
+"#menuButtonRight[formFactor=tablet]":{
+	width: "80dp",
+	height: "80dp",
+	right: 0
+}
+
+'#listView[formFactor=tablet]':{
+	top: 81
+},
+
+"#listView":{
+	top: 61
+}
+
+
+'#listView':{
+	top: '61dp'
+}
+'#listView[formFactor=tablet]':{
+	top: '81dp'
+}
+
+'#name':{
+	font:{
+		fontSize: '25dp',
+		fontFamily: 'Arizonia-Regular'
+	},
+	color: '#fff'
+}
+
+'#name[formFactor=tablet]':{
+	font:{
+		fontSize: '40dp',
+		fontFamily: 'Arizonia-Regular'
+	},
+	color: '#fff'
+}
+

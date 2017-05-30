@@ -1,0 +1,12 @@
+<Alloy>
+	<View id="mainView">
+		<View id="mainTopBar">
+			<View id="menuButton"/>
+		</View>
+		<TableView>
+			<TableViewRow id="row">
+				<View id="view" width="20" height="20"/>
+			</TableViewRow>
+		</TableView>
+	</View>
+</Alloy>

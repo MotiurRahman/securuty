@@ -1,0 +1,21 @@
+<Alloy>
+	<Window id = "loginWin">
+		<View id = "mainView">
+			<View id="mainTopBar">
+				<Button id="back" left="5" onClick="back" backgroundImage="/images/Back.png"></Button>
+				<Label color="#fff" >Create Password</Label>
+			</View>
+			<ScrollView>
+				<View layout="vertical">
+					<Label top="10" left="5">New Password</Label>
+					<TextField id= 'txt_newPass' top="10" passwordMask="true"></TextField>
+					<Label top="10" left="5">Re Password</Label>
+					<TextField id= 're_pass' top="10" passwordMask="true"></TextField>
+					<Label top="10" left="5">Email:Importent for Retriving Password</Label>
+					<TextField id= 'txt_email' top="10" keyboardType="Titanium.UI.KEYBOARD_TYPE_EMAIL" hintText="Make sure twice"></TextField>
+					<Button id="submit" title="Submit" top="20"  color="#fff" onClick="save">Submit</Button>
+				</View>
+			</ScrollView>
+		</View>
+	</Window>
+</Alloy>

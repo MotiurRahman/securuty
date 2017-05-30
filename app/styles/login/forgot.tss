@@ -1,0 +1,59 @@
+"#mainView": {
+	"layout": "vertical",
+	"backgroundColor": "#000"
+},
+"#mainTopBar": {
+	"width": Ti.UI.FILL,
+	"height": "60dp",
+	"backgroundColor": "#5B96B2"
+},
+"#mainTopBar[formFactor=tablet]": {
+	"width": Ti.UI.FILL,
+	"height": "100",
+	"backgroundColor": "#5B96B2"
+},
+"Label": {
+	"color": "#fff",
+	"width": Ti.UI.SIZE,
+	"height": Ti.UI.SIZE,
+	"font": {fontSize:'20dp'}
+},
+"TextField": {
+	"color": "#000",
+	"left": 10,
+	"right": 10,
+	"height": 40,
+	"backgroundColor": "#fff"
+},
+"#submit": {
+	"borderWidth": 2,
+	"borderColor": "green",
+	"borderRadius": 10,
+	"width": 80,
+	"height": 50,
+},
+"#back": {
+	"width": 50,
+	"height": 30
+},
+"#back[formFactor=tablet]": {
+	"width": 100,
+	"height": 60
+},
+"Label[formFactor=tablet]": {
+	"font": {fontWeight:'bold',fontSize:'32dp'},
+	"color": "#fff"
+},
+"TextField[formFactor=tablet]": {
+	"height": 80,
+	"font": {fontSize:'30'}
+},
+"#submit[formFactor=tablet]": {
+	"borderWidth": 2,
+	"borderColor": "green",
+	"borderRadius": 10,
+	"width": 150,
+	"height": 70
+},
+"#txt_email": {
+}

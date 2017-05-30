@@ -1,0 +1,59 @@
+".container": {
+	"backgroundColor": "#000"
+},
+"#name_and[formFactor=tablet]": {
+	"color": "#fff",
+	"width": Ti.UI.SIZE,
+	"height": Ti.UI.SIZE,
+	"font": {fontSize:'50dp',fontFamily:'MotionPicture_PersonalUseOnly'}
+},
+"#name_ios[formFactor=tablet]": {
+	"color": "#fff",
+	"width": Ti.UI.SIZE,
+	"height": Ti.UI.SIZE,
+	"font": {fontSize:'50dp',fontFamily:'MotionPicturePersonalUse'}
+},
+"#name_and[formFactor=handheld]": {
+	"color": "#fff",
+	"width": Ti.UI.SIZE,
+	"height": Ti.UI.SIZE,
+	"font": {fontSize:'30dp',fontFamily:'MotionPicture_PersonalUseOnly'}
+},
+"#name_ios[formFactor=handheld]": {
+	"color": "#fff",
+	"width": Ti.UI.SIZE,
+	"height": Ti.UI.SIZE,
+	"font": {fontSize:'30dp',fontFamily:'MotionPicturePersonalUse'}
+},
+"#pin[formFactor=tablet]": {
+	"color": "#000",
+	"borderRadius": "10",
+	"borderWidth": "5",
+	"borderColor": "gray",
+	"height": 80,
+	"font": {fontSize:'40dp'},
+	"left": 20,
+	"right": 20
+},
+"#pin[formFactor=handheld]": {
+	"borderRadius": "10",
+	"borderWidth": "2",
+	"height": 50,
+	"borderColor": "gray",
+	"font": {fontSize:'15dp'},
+	"color": "#000",
+	"left": 20,
+	"right": 20
+},
+"#signin": {
+	"color": "#fff",
+	"font": {fontSize:'16dp'}
+},
+"#signin[formFactor=tablet]": {
+	"color": "#fff",
+	"font": {fontSize:'26dp'}
+},
+"#first": {
+},
+"#forgot": {
+}

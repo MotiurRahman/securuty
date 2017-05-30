@@ -1,0 +1,43 @@
+
+".container": {
+	backgroundColor: '#000'
+}
+
+"Label":{
+	color: '#fff',
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: 20
+	},
+	left: 20
+},
+
+"Label[formFactor=tablet]":{
+	color: '#fff',
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: 30
+	},
+	left: 20
+},
+
+'Button[formFactor=tablet]': {
+	borderWidth: 2,
+	borderColor: 'green',
+	borderRadius: 10,
+	width: 150,
+	color: '#fff',
+	height: 70
+}
+
+'Button': {
+	borderWidth: 2,
+	borderColor: 'green',
+	borderRadius: 10,
+	color: '#fff',
+	width: 80,
+	height: 50
+}
+

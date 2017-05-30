@@ -1,0 +1,23 @@
+<Alloy>
+	<Window class="container" title="Password Details" id="detailWin">
+		<ScrollView bottom="130">
+			<View  layout="vertical" height='500' width="Ti.UI.FILL">
+				<Label id="title" top="20"></Label>
+				<Label id="email" top="10"></Label>
+				<Label id="pass" top="10"></Label>
+				<Label id="account" top="10"></Label>
+				<Label id="pin" top="10"></Label>
+				<Label id="site" top="10" onClick="openURL" autoLink="Titanium.UI.AUTOLINK_ALL"></Label>
+			</View>
+		</ScrollView>
+		<View  width="Ti.UI.Fill" height="Ti.UI.SIZE" bottom="0" layout="vertical">
+			<View id="adView" width="Ti.UI.FILL" height="60"></View>
+			<View height="Ti.UI.SIZE" width="Ti.UI.FILL">
+				<Button  title="Delete" onClick="deleteBtn" left="5"></Button>
+				<Button  title="close" onClick="close"></Button>
+				<Button  title="Update" onClick="update" right="5"></Button>
+			</View>
+		</View>
+
+	</Window>
+</Alloy>

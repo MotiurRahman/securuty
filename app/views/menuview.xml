@@ -1,0 +1,49 @@
+<Alloy>
+	<View id="menuView" zIndex="3">
+		<View id="menuTopBar"/>
+		<TableView class="menuTable" id="menuTable">
+			<TableViewRow class="tableRow" id="about">
+				<View id="rowContainer">
+					<View id="rowAbout" class="rowIcon"/>
+					<Label id="rowLabel" class="rowLabel">About</Label>
+				</View>
+			</TableViewRow>
+			<TableViewRow class="tableRow" id="settings">
+				<View id="rowContainer">
+					<View id="rowGear" class="rowIcon"/>
+					<Label id="rowLabel" class="rowLabel">Settings</Label>
+				</View>
+			</TableViewRow>
+			<TableViewRow class="tableRow" id="fb">
+				<View id="rowContainer">
+					<View id="fbShare" class="rowIcon"/>
+					<Label id="rowLabel" class="rowLabel">Facebook Share</Label>
+				</View>
+			</TableViewRow>
+			<TableViewRow class="tableRow" id="twitter">
+				<View id="rowContainer">
+					<View id="twiterShare" class="rowIcon"/>
+					<Label id="rowLabel" class="rowLabel">Twitter Share</Label>
+				</View>
+			</TableViewRow>
+			<TableViewRow class="tableRow" id="linkdin">
+				<View id="rowContainer">
+					<View id="linkdinShare" class="rowIcon"/>
+					<Label id="rowLabel" class="rowLabel">Linkdin Share</Label>
+				</View>
+			</TableViewRow>
+			<TableViewRow class="tableRow" id="whatsapp">
+				<View id="rowContainer">
+					<View id="whatsappShare" class="rowIcon"/>
+					<Label id="rowLabel" class="rowLabel">Whatsapp Share</Label>
+				</View>
+			</TableViewRow>
+			<TableViewRow class="tableRow" id="rate">
+				<View id="rowContainer">
+					<View id="rowRate" class="rowIcon"/>
+					<Label id="rowLabel" class="rowLabel">Rate This App</Label>
+				</View>
+			</TableViewRow>
+		</TableView>
+	</View>
+</Alloy>

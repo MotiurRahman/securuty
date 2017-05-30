@@ -1,0 +1,26 @@
+<Alloy>
+    <Window id="genWin" layout="vertical">
+        <View id="mainTopBar">
+            <Button backgroundImage="/images/Back.png" id="back" left="5" onClick="back"/>
+            <Label color="#fff">Create Password Info</Label>&gt;
+		</View>
+        <ScrollView>
+            <View backgroundColor="#000" class="container" layout="vertical">
+                <Label id="title_name" left="20" top="10">Title Name</Label>
+                <TextField id="txt_title" top="10"/>
+                <Label id="Email" left="20" top="10">Email</Label>
+                <TextField id="txt_email" keyboardType="Titanium.UI.KEYBOARD_TYPE_EMAIL" top="10"/>
+                <Label id="pass" left="20" top="10">Password</Label>
+                <TextField id="txt_pass" top="10"/>
+                <Label id="acount" left="20" top="10">Account Number</Label>
+                <TextField id="txt_account" keyboardType="Titanium.UI.KEYBOARD_TYPE_NUMBER_PAD" top="10"/>
+                <Label id="pin" left="20" top="10">Pin Number</Label>
+                <TextField id="txt_pin" keyboardType="Titanium.UI.KEYBOARD_TYPE_NUMBER_PAD" top="10"/>
+                <Label id="url" left="20" top="10">Site URL: Except https://www.</Label>
+                <TextField id="txt_url" keyboardType="Titanium.UI.KEYBOARD_TYPE_URL" top="10"/>
+                <Button color="#fff" id="save" onClick="save" title="Save" top="20"/>&gt;
+				<View height="60" id="adView" width="Ti.UI.FILL"/>
+            </View>
+        </ScrollView>
+    </Window>
+</Alloy>
