@@ -11,7 +11,7 @@
 				<Label id="name">Password Manager</Label>>
 				<View id="menuButtonRight"/>
 			</View>
-			<View id="listView" zIndex="1">
+			<View id="listView" zIndex="1" bottom="60">
 				<ListView id="elementsList" >
 					<SearchBar barColor="#000" />
 					<ListSection name="elements" />

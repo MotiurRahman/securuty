@@ -1,24 +1,25 @@
 <Alloy>
-	<Window id="settingWin">
-		<View id="mainView">
-			<View id="mainTopBar">
-				<Button id="back" left="5" onClick="back" backgroundImage="/images/Back.png"></Button>
-				<Label >Change Password</Label>>
-			</View>
-			<ScrollView >
-				<View layout="vertical">
-					<Label id="title_name" top="10" left="10">Current Password</Label>
-					<TextField id= 'cur_pass' top="10" passwordMask="true"></TextField>
-					<Label id="Email" top="10" left="10">New Password</Label>
-					<TextField id= 'new_pass' top="10" passwordMask="true"></TextField>
-					<Label id="pass" top="10" left="10">Re Password</Label>
-					<TextField id= 're_pass' top="10" passwordMask="true"></TextField>
-					<Button id="submit" title='Submit' top="20"  color="#fff" onClick="submit">Submit</Button>
-				</View>
-			</ScrollView>
-		</View>
-		<View  width="Ti.UI.Fill" height="60" bottom="0">
-			<View id="adView" width="Ti.UI.FILL" height="60"></View>
-		</View>
-	</Window>
+    <Window id="settingWin">
+        <View id="mainView">
+            <View id="mainTopBar">
+                <Button id="back" left="5" onClick="back" backgroundImage="/images/Back.png"></Button>
+                <Label>Change Password</Label>
+            </View>
+            <ScrollView>
+                <View layout="vertical">
+                    <Label id="title_name" top="10" left="10">Current Password</Label>
+                    <TextField id='cur_pass' top="10" passwordMask="true"></TextField>
+                    <Label id="Email" top="10" left="10">New Password</Label>
+                    <TextField id='new_pass' top="10" passwordMask="true"></TextField>
+                    <Label id="pass" top="10" left="10">Re Password</Label>
+                    <TextField id='re_pass' top="10" passwordMask="true"></TextField>
+                    <Button id="submit" title='Submit' top="20" color="#fff" onClick="submit">Submit</Button>
+                    <View width="Ti.UI.Fill" height="60" top="10">
+                        <View id="adView" width="Ti.UI.FILL" height="60"></View>
+                    </View>
+
+                </View>
+            </ScrollView>
+        </View>
+    </Window>
 </Alloy>

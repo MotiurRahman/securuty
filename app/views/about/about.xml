@@ -1,8 +1,9 @@
 <Alloy>
 	<Window  title="Password Manager" id="aboutWin" class="container">
 		<View  layout="vertical" top='50'>
-			<Label id="title">UTC Associates (Pvt.) Ltd</Label>
-			<Label id="email" top="10">MD. Motiur Rahman</Label>
+			<Label id="title">Grameen Solution Ltd</Label>
+			<Label id="name" top="10">MD. Motiur Rahman</Label>
+			<Label id="email" top="10">motiur.mbstu@gmail.com</Label>
 
 		</View>
 		<View  width="Ti.UI.Fill" height="Ti.UI.SIZE" bottom="0" layout="vertical">

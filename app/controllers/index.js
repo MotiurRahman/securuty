@@ -1,3 +1,4 @@
+
 function done(e) {
 	var db = require('loginDB');
 	var pass = db.getinfo();
@@ -88,3 +89,4 @@ if (Titanium.Network.networkType === Titanium.Network.NETWORK_NONE) {
 	push.pushSubscribe();
 }
 $.index.open();
+$.pin.blur();
