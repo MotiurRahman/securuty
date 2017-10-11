@@ -43,7 +43,7 @@
     </ios>
     <android xmlns:android="http://schemas.android.com/apk/res/android">
         <manifest android:installLocation="preferExternal"
-            android:versionCode="4" android:versionName="2.0" package="com.bd.securityManager">
+            android:versionCode="6" android:versionName="2.2" package="com.bd.securityManager">
             <application android:theme="@style/Theme.NoActionBar">
                 <activity
                     android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
@@ -51,7 +51,7 @@
                     android:name="com.facebook.FacebookActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
                 <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
             </application>
-            <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="24"/>
+            <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="26"/>
         </manifest>
     </android>
     <mobileweb>
@@ -76,7 +76,7 @@
         <target device="iphone">true</target>
         <target device="mobileweb">false</target>
     </deployment-targets>
-    <sdk-version>6.1.0.GA</sdk-version>
+    <sdk-version>6.2.2.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>

@@ -8,7 +8,7 @@
 		<View id="mainView" backgroundColor="gray" zIndex="5" >
 			<View id="mainTopBar" top="0">
 				<View id="menuButtonLeft" />
-				<Label id="name">Password Manager</Label>>
+				<Label id="name">Security Manager</Label>>
 				<View id="menuButtonRight"/>
 			</View>
 			<View id="listView" zIndex="1" bottom="60">

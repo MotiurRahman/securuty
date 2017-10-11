@@ -2,8 +2,8 @@
     <Window class="container" title="Password Manager">
         <ScrollView>
             <View layout="vertical">
-                <Label id="name_and" platform="android" top="20">Password Manager</Label>
-                <Label id="name_ios" platform="ios" top="20">Password Manager</Label>
+                <Label id="name_and" platform="android" top="20">Security Manager</Label>
+                <Label id="name_ios" platform="ios" top="20">Security Manager</Label>
                 <ImageView height="200" id="first" image="/images/open.png" top="30" width="200"/>
                 <Label color="#fff" font="10" left="20" platform="android" top="20">Enter your Password then press done! </Label>
                 <TextField backgroundColor="#fff" id="pin" onReturn="done" passwordMask="true" platform="android" top="5"/>

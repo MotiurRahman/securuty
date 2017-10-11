@@ -28,12 +28,14 @@ function save() {
 				$.txt_account.setValue('');
 				$.txt_pin.setValue('');
 				//Ti.App.fireEvent('update');
+				Ti.API.info("inserting checing");
 				Alloy.Events.trigger('updateMainUI');
+				Ti.API.info("Reloading checing 2");
 				// $.genWin.close({
 				// transition : Ti.UI.iPhone.AnimationStyle.FLIP_FROM_RIGHT
 				// });
 				$.genWin.close();
-				$.genWin == null;
+			//	$.genWin == null;
 
 			}
 

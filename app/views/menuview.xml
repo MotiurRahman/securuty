@@ -14,7 +14,7 @@
 					<Label id="rowLabel" class="rowLabel">Settings</Label>
 				</View>
 			</TableViewRow>
-			<TableViewRow class="tableRow" id="fb">
+			<!-- <TableViewRow class="tableRow" id="fb">
 				<View id="rowContainer">
 					<View id="fbShare" class="rowIcon"/>
 					<Label id="rowLabel" class="rowLabel">Facebook Share</Label>
@@ -37,7 +37,7 @@
 					<View id="whatsappShare" class="rowIcon"/>
 					<Label id="rowLabel" class="rowLabel">Whatsapp Share</Label>
 				</View>
-			</TableViewRow>
+			</TableViewRow> -->
 			<TableViewRow class="tableRow" id="rate">
 				<View id="rowContainer">
 					<View id="rowRate" class="rowIcon"/>

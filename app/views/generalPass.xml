@@ -18,7 +18,7 @@
                 <TextField id="txt_pin" keyboardType="Titanium.UI.KEYBOARD_TYPE_NUMBER_PAD" top="10"/>
                 <Label id="url" left="20" top="10">Site URL: Except https://www.</Label>
                 <TextField id="txt_url" keyboardType="Titanium.UI.KEYBOARD_TYPE_URL" top="10"/>
-                <Button color="#fff" id="save" onClick="save" title="Save" top="20"/>&gt;
+                <Button color="#fff" id="save" onClick="save" title="Save" top="20"/>
 				<View height="60" id="adView" width="Ti.UI.FILL"/>
             </View>
         </ScrollView>
