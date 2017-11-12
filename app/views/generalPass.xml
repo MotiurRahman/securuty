@@ -5,7 +5,7 @@
             <Label color="#fff">Create Password Info</Label>&gt;
 		</View>
         <ScrollView>
-            <View backgroundColor="#000" class="container" layout="vertical">
+            <View backgroundColor="#000" class="container" layout="vertical" width="Ti.UI.FILL" height="Ti.UI.SIZE">
                 <Label id="title_name" left="20" top="10">Title Name</Label>
                 <TextField id="txt_title" top="10"/>
                 <Label id="Email" left="20" top="10">Email</Label>

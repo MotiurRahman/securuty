@@ -11,7 +11,7 @@
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>a910d129-adbe-4114-9fff-d2631d69f0ca</guid>
+    <guid>5cd539d6-bd70-410e-9aaa-d2631d69f0ca</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <property name="run-on-main-thread" type="bool">true</property>
     <ios>
@@ -43,7 +43,7 @@
     </ios>
     <android xmlns:android="http://schemas.android.com/apk/res/android">
         <manifest android:installLocation="preferExternal"
-            android:versionCode="6" android:versionName="2.2" package="com.bd.securityManager">
+            android:versionCode="9" android:versionName="2.5" package="com.bd.securityManager">
             <application android:theme="@style/Theme.NoActionBar">
                 <activity
                     android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
@@ -69,6 +69,8 @@
         <module platform="android" version="3.0.1">ti.admob</module>
         <module platform="android" version="6.2.0">facebook</module>
         <module platform="iphone">facebook</module>
+        <module platform="android">com.appcelerator.apm</module>
+        <module platform="iphone">com.appcelerator.apm</module>
     </modules>
     <deployment-targets>
         <target device="android">true</target>
@@ -80,7 +82,7 @@
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
-    <property name="appc-app-id" type="string">592b8f390106f82aca6aefd0</property>
+    <property name="appc-app-id" type="string">59f6e52a31e0413718d0ff1f</property>
     <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
     <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
     <property name="acs-oauth-secret-development" type="string">Kg7bSIMF9n0QfMHZJqcj5O7kVQLzGOrb</property>
@@ -97,5 +99,5 @@
     <property name="acs-password-production" type="string">4MughibMAzx17AKqCb</property>
     <property name="appc-org-id" type="string">100000208</property>
     <property name="appc-creator-user-id" type="string">f4e06b94-4ca5-4024-afa5-fb7f70fa302f</property>
-    <property name="com-appcelerator-apm-id" type="string">0dd1f829134d4064a99609faa5d0b58600555300</property>
+    <property name="com-appcelerator-apm-id" type="string">3c31fea4517d490bb35a288b9c75e90d00555300</property>
 </ti:app>
